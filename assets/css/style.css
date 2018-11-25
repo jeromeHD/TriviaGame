@@ -5,3 +5,13 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
 }
+#game {
+  overflow: overlay;
+  height: 100%;
+  width: 75%;
+  margin: auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background-color: whitesmoke;
+  text-align: center;
+}
