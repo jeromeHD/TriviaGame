@@ -55,34 +55,5 @@ $(document).ready(function() {
     }
   ];
 
-  function displayTrivia() {
-    $("<#questions").html(triviaQuestion[0].question);
-    question++;
-
-    var choicesArr = triviaQuestion[0].choices;
-    var buttonsArr = [];
-
-    for (let i = 0; i < choicesArr.length; i++) {
-      var button = $("<button>");
-      button.text(choicesArr[i]);
-      button.attr("data-id", i);
-      $("#choices").append(button);
-    }
-  }
-
-  $('#choices').on('click', 'button', function(e){
-    userPick = $(this).data("id");
-    triviaQuestion[0].validAnswer;
-    if(userPick != triviaQuestion[3].validAnswer) {
-   
-    $('#choices').text("Wrong Answer!");
-    incorrectAnswer++;
-   
-   } else if (userPick === triviaQuestion[3].validAnswer) {
-   $('#choices').text("Correct!!!");
-   correctAnswer++;
-   
-   }
-  
-  }
+  document.write(triviaQuestion);
 });
