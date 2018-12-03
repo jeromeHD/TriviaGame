@@ -1,30 +1,29 @@
 body {
   background-image: url(http://images2.fanpop.com/image/photos/13700000/Whare-s-Waldo-wheres-waldo-13776536-1024-768.jpg);
   background-color: black;
-  height: 500px;
+  height: 100%;
   background-repeat: no-repeat;
   background-size: cover;
 }
-#game {
+#questions {
   overflow: overlay;
   height: 100%;
   width: 75%;
   margin: auto;
   padding-left: 20px;
   padding-right: 20px;
-  background-color: whitesmoke;
   text-align: center;
 }
-#wrapper {
+#container {
   width: 960px;
   min-height: 80%;
   box-sizing: border-box;
   padding: 5% 0;
   margin: 5% auto;
-  background-color: #fff17a;
+  background-color: #61b7bf;
 }
 
-#sub-wrapper {
+#wrapper {
   position: relative;
   top: 20%;
 }
@@ -42,10 +41,10 @@ button {
 
 h1 {
   margin-bottom: 50px;
-  font-family: Geo, sans-serif;
-  font-size: 6.5em;
+  font-family: Arial, Helvetica, sans-serif sans-serif;
+  font-size: 90px;
   font-weight: bold;
-  color: blue;
+  text-align: center;
 }
 
 h2 {
@@ -60,8 +59,8 @@ h3 {
 
 #start {
   margin-top: 10%;
-  background: pink;
-  border: 2px solid blue;
+  background: slategray;
+  border: 2px solid black;
 }
 
 #questions h2 {
@@ -69,6 +68,6 @@ h3 {
 }
 
 button:hover {
-  background: pink;
-  border: 2px solid blue;
+  background: slategray;
+  border: 2px solid black;
 }
